@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    transition: 5s;
+}
+
+.bg {
+    background-color: rgb(232, 244, 255);
+    height: 120px;
+}
+
+.container {
+    height: 60px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.imgg {
+    margin-top: 7px;
+    float: left;
+}
+
+.li {
+    padding-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+ul li {
+    margin-top: 20px;
+    font-size: 16px;
+    list-style: none;
+    display: inline-block;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 19px;
+    font-family: "Montserrat";
+}
+
+ul {
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.search {
+    float: right;
+    margin-top: 10px;
+}
+
+.news {
+    background-image: url(https://wallpapershome.ru/images/pages/ico_h/25871.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.107)
+}
+
+.allnew {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li a {
+    color: white;
+    display: inline-block;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul li a:hover {
+    color: rgb(73, 70, 255);
+}
+
+ul li a:after {
+    display: block;
+    content: '';
+    border-bottom: solid 3px rgb(73, 70, 255);
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+ul li a:hover:after {
+    transform: scaleX(1);
+}
+
+.active {
+    color: orange;
+}
+
+.li2 {
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+    height: 100vh;
+}
+
+.container1 {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.25);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 38px;
+    filter: drop-shadow(0 30px 10px rgba(0, 0, 0, 0.125));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.cards {
+    display: flex;
+
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+
+}
+
+.banner-image {
+    background-image: url(https://everythingproperty.co.za/wp-content/uploads/2022/12/23-tips-to-run-your-business-better-in-2023-.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.255)
+}
+
+.button-wrapper {
+    margin-top: 18px;
+    display: flex;
+}
+
+
+
+.btn+.btn {
+    margin-left: 10px;
+}
+
+.outline {
+    background: transparent;
+    color: rgba(0, 0, 0, 0.9);
+    border: 1px solid rgba(0, 212, 255, 0.6);
+    transition: all .3s ease;
+
+}
+
+.outline:hover {
+    transform: scale(1.125);
+    color: rgba(255, 255, 255, 0.9);
+    border-color: rgba(255, 255, 255, 0.9);
+    transition: all .3s ease;
+}
+
+.fill {
+    background: rgba(0, 212, 255, 0.9);
+    color: rgba(255, 255, 255, 0.95);
+    filter: drop-shadow(0);
+    font-weight: bold;
+    transition: all .3s ease;
+}
+
+.fill:hover {
+    transform: scale(1.125);
+    border-color: rgba(255, 255, 255, 0.9);
+    filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.125));
+    transition: all .3s ease;
+}
+
+.wrapper h1 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.aaa {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.newa {
+    text-decoration: none;
+    color: black;
+}
+
+.bigh1 {
+    font-weight: 600;
+    margin-left: 70px;
+}
+
+.newsd {
+    margin-top: 40px;
+}
+
+.text {
+    margin-left: 20px;
+}
+
+

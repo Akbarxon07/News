@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Page</h1>
+<h1>Qolda yozilgan forma</h1>
+<form action="" method="post">  {% csrf_token %}
+    <input type="text" name="title" placeholder="usrname"><br>
+    <input type="text" name="title" placeholder="password"><br>
+    <input type="text" name="title" placeholder="first"><br>
+    <input type="text" name="title" placeholder="last"><br>
+
+</form>
+
+<h1>Tayyor djangoda form yozilgan forma</h1>
+<form action="" method="post">
+    {%csrf_token%}
+    {{form.as_p}}
+    <button type="submit">save</button>
+</form>
+</body>
+</html>
